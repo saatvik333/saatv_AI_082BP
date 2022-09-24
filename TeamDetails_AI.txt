@@ -1,0 +1,14 @@
+﻿Fill in the details (should be same as those while registering for CNI Hackathon):
+
+
+Team Name: GOAT-E69
+
+
+Team Member 1: (Assumed to be the team lead, by default)
+Name: Saatvik Sharma
+Email ID: saatvik333sharma@gmail.com
+
+
+Team Member 2:
+Name: Kunal Mahajan
+Email ID: kmahajan883@gmail.com
