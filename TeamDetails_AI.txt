@@ -1,7 +1,7 @@
 ﻿Fill in the details (should be same as those while registering for CNI Hackathon):
 
 
-Team Name: GOAT_E69
+Team Name: GOAT-E69
 
 
 Team Member 1: (Assumed to be the team lead, by default)
