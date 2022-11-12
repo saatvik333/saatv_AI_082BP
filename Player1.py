@@ -5,6 +5,7 @@ class player:
         pass
 
     def move(self,B,N,cur_x,cur_y):
+        return (0,0)
         if random.randint(0,2)==0:
             return (0,random.choice([-1,1]))
         else:
