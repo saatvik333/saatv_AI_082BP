@@ -7,6 +7,7 @@ class player:
     def __init__(self):
         self.step=0
 
+    
     def move(self,B,N,cur_x,cur_y):
         self.step+=1
         if B[cur_x][(cur_y+1)%N]==0:

@@ -7,6 +7,7 @@ from enum import Enum
 from time import sleep,time
 import Player1 # Player1 is the name of the first bot.
 import Player2 # Player2 is the name of the second bot.
+import bot 
 
 BLACK = (0, 0, 0)
 WHITE = (150, 150, 150)
@@ -85,7 +86,7 @@ def main():
     SCREEN.fill(BLACK)
     font = pygame.font.Font(pygame.font.get_default_font(), 20)
 
-    p = [Player1.player(), Player2.player()]
+    p = [Player2.player(), bot.player()]
 
 
     turn = 0 
@@ -93,7 +94,7 @@ def main():
     drawGrid()
     while True and count<MAXSTEPS:
 
-        sleep(0.1)  # Participants may comment this line to speed up the computation. 
+       # sleep(0.1)  # Participants may comment this line to speed up the computation. 
                     # However, commenting will also speed up the visualization. This 
                     # can make it difficult to understand and analyze the moves.
 
